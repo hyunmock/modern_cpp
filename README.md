@@ -479,7 +479,7 @@ std::tuple t(4, 3, 2.5);
 ```
 
 ## Concurrency
-### `std::thread` and `std::mutx`
+### `std::thread` and `std::mutex`
 언어 차원에서 동시성 관련 기능을 지원하게 됨으로써 여러 플랫폼에서 표준적인 행동을 보이는 멀티 스레드 프로그램을 작성할 수 있게 되었다. STL에서 제공하는 thread와 mutex의 사용방법은 pthread와 크게 다르지 않다.
 
 ```cpp
